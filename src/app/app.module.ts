@@ -14,7 +14,8 @@ const appRoutes: Routes = [
   { path: 'this-site', component: ThisSiteComponent },
   { path: 'rotcrier', component: RotcrierComponent },
   { path: 'skills', component: SkillsComponent },
-  { path: '',   redirectTo: '/biography', pathMatch: 'full' }
+  { path: '',   redirectTo: '/biography', pathMatch: 'full' },
+  { path: '**', redirectTo: '/biography', pathMatch: 'full' }
 ];
 
 @NgModule({
