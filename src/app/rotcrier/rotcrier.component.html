@@ -1,1 +1,56 @@
-<p>rotcrier works!</p>
+<div class="container">
+    <h2>rotcrier</h2>
+    <h5 class="ms-2">A place for people who give a shit. </h5>
+
+    <div class="mt-4">
+        rotcrier.com is a place to shed light on issues, and
+        for others to show they can give a shit.
+    </div>
+    <hr>
+    <div class="mt-1">
+        <h5>back-end</h5>
+        <ul>
+            <li>
+                The back-end is built using Nodejs, express, posgresql,
+                express-session, sequelize, and express-session-sequelize.
+            </li>
+            <li>
+                It features a custom user encryption passowrd salt and encryption system for
+                secure password storage. 
+            </li>
+            <li>
+                It includes session management to provide secure modification of records, and allow users to remain logged
+                in for the session duration.
+            </li>
+            <li>
+                Prior to modification of database records session information is compared to database records to determine
+                if that request should be fulfilled or rejected.
+            </li>
+            <li>
+                Implements https enforcement, redirecting http traffic to https instead.
+            </li>
+        </ul>    
+    </div>
+    <hr>
+    <div class="mt-1">
+        <h5>front-end</h5>
+        <ul>
+            <li>
+                The front-end is built using a mixture of React, react-boostrap,
+                and regular bootstrap. It also utilizes html-react-parser for rendering of links in 
+                posts displayed.
+            </li>
+            <li>
+                Users can create accounts and login using the user controls at the top of the page.
+            </li>
+            <li>
+                Users can create sections for community management. Other users can then join those sections
+                and posts in that section.
+            </li>
+            <li>
+                Users can create posts in sections to bring attention to things they want to bring attention to. 
+                Other users can then show they give a shit, or share their thoughts and feelings in comment.
+            </li>
+        </ul>    
+    </div>
+</div>
